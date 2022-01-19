@@ -7,4 +7,5 @@ Feature: This feature describes the journey of wish list and lowest price produc
     When 4 products are added to wish list
     And wish list page is opened
     Then 4 items are displayed
-    # Enter steps here
+#    When lowest price product is searched
+#    Then it is added to the cart successfully
