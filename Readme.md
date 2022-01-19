@@ -20,4 +20,4 @@ a) Navigate to the features folder in the project on command line and execute be
 b) Use the Behave runner on the Pycharm IDE
 
 
-![alt text]C:\Users\KARTIK\Desktop\Webautomation.PNG
+![Webautomation](https://user-images.githubusercontent.com/94554446/150041596-79ecb32e-7912-4b7c-8959-e3835a7d0270.PNG)
