@@ -24,7 +24,6 @@ def step_impl(context, item_number):
     for e in range(int(item_number)):
         print('Element added to wishlist: {}'.format(e))
         context.home_page.add_product_to_wishlist(wish_list_elements[e])
-    time.sleep(10)  # TODO: Remove this and handle wait in add_product_to_wishlist
     context.home_page.navigate_to_wish_list_page()
 
 

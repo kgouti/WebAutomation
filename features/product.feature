@@ -6,5 +6,5 @@ Feature: This feature describes the journey of wish list and lowest price produc
     Given website is open
     When 4 products are added to wish list
     And wish list page is opened
-#    Then 4 items are displayed
+    Then 4 items are displayed
     # Enter steps here

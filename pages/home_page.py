@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
+import time
 
 
 class HomePage(BasePage):
@@ -28,6 +29,7 @@ class HomePage(BasePage):
 
     def add_product_to_wishlist(self, element):
         element.click()
+        time.sleep(1)
         # TODO: Ensure to put handle waits after elements are added to wishlist
 
     def navigate_to_wish_list_page(self):
